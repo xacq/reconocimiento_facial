@@ -111,6 +111,7 @@ Verifica:
 
 cmake --version
 
+---
 
 ### 3️⃣ Instalar Visual Studio Build Tools
 
@@ -122,6 +123,8 @@ Selecciona el paquete:
 Desktop development with C++
 
 Esto instala el compilador necesario para compilar dlib.
+
+---
 
 ### 4️⃣ Crear y activar entorno virtual
 python -m venv .venv
@@ -139,11 +142,15 @@ Luego instala los módulos del proyecto:
 pip install dlib
 pip install face_recognition opencv-python opencv-contrib-python scikit-image matplotlib numpy
 
+---
+
 ### ▶️ Ejecución del programa
 
 Dentro del entorno virtual:
 
 python app.py
+
+---
 
 ### 🧾 Resultados y Registro
 
@@ -165,6 +172,8 @@ Contexto experimental
 
 Esto permite analizar el rendimiento bajo diferentes condiciones de iluminación, distancia y cámara.
 
+---
+
 ### 📊 Visualización Experimental
 
 El programa genera automáticamente dos gráficos:
@@ -175,12 +184,15 @@ Nivel de confianza promedio (0–1)
 
 Ambos permiten comparar el comportamiento relativo de los métodos.
 
+---
+
 ### 🧪 Conclusión
 
 Este laboratorio es una herramienta experimental para medir, comparar y comprender el comportamiento de distintos métodos de reconocimiento facial bajo diversas condiciones.
 
 Permite construir datasets personalizados, correlacionar métricas con entornos reales y profundizar en el análisis de eficiencia, precisión y robustez de los algoritmos faciales.
 
-Autor: Equipo de Investigación Experimental IA
+---
+
 Lenguaje: Python 3.11+
 Dependencias clave: opencv-python, face_recognition, scikit-image, matplotlib, numpy
