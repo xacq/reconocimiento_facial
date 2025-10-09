@@ -127,8 +127,10 @@ Esto instala el compilador necesario para compilar dlib.
 ---
 
 ### 4️⃣ Crear y activar entorno virtual
+CREAR
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+ACTIVAR
+.venv\Scripts\Activate.ps1
 
 5️⃣ Instalar dependencias
 
